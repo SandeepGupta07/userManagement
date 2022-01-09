@@ -13,7 +13,7 @@ build:
       - name: Setup Node
         uses: actions/setup-node@v1
         with:
-          node-version: "12.x"
+          node-version: "12.x"s
       - name: Install Dependencies
         run: npm install
       - name: Run app.js
